@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ANSWER TO PART 3 OF TECHNICAL HOMEWORK IS ON THE BAMBOO-WORKS-EXAM FOLDER IN THE REPOSITORY
 
 ## Available Scripts
 
