@@ -9,6 +9,7 @@ In the project directory, you can run:
 ## `npm install @mui/material @emotion/react @emotion/styled @mui/icons-material`
 
 Install necessary dependencies with the line of code above (if installation fails include --legacy-peer-deps at the end of each npm install)
+Utilized material UI as the library is established and I have utilized it honestly allthroughout my career
 
 ### `npm start`
 

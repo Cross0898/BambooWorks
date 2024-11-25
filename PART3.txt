@@ -1,0 +1,31 @@
+Part 3: Code Review Questions
+Please answer the following questions in a text file:
+
+State Management:
+Why did you choose the specific state management approach? How
+would you scale it for a larger application?
+-I chose redux toolkit for state management. Honestly this is probably the 2nd time I have 
+used this as this really isn't what I normally use but upon further research it does simplify
+the process of managing state and includes best practices for structuring Redux logic. Previously I have
+used the basic hooks such as useState or useContext.
+
+Performance Optimization:
+What techniques did you use to optimize the performance of the
+application? How do they work?
+-One is efficient use of state with the use of redux toolkit for state management. Also while not fully implemented,
+code splitting is one of the best ways to implement to optimize the performance. Another thing when implementing API integrations, lazy
+loading would also be efficient to optimize performance.
+
+
+Testing Strategy:
+How do you decide which parts of the application need to be unit
+tested? What are your guidelines?
+Not tested lacked of time honeslty so I do have to apologize for it but initially the plan would be to analize which part of the code directly impacts the core functionality
+of the app such ass state management actions, reducers, utility functions should be unit tested.
+
+
+Code Structure:
+Explain how you organized your project structure and why.
+-The project is organized in a modular, feature-driven way to ensure maintainability and scalability.
+This modular structure allows for better code readability, maintainability, and scalability as the app grows. Each feature is sectioned 
+in their own folder making it easier to locate code needed.
